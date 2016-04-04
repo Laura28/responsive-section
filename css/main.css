@@ -72,3 +72,25 @@ section p {
   padding-bottom: 1em;
   margin-top: .1em;
 }
+
+@media only screen and (min-width: 25em) {
+
+  .section-letter,
+  .section-icon {
+    padding-top: 1.2em;
+    width: 45%;
+  }
+
+  .section-letter {
+    padding-left: 2em;
+  }
+
+  .section-icon {
+    padding-right: 2em;
+  }
+
+  .section-body {
+    margin-right: 1.3em;
+  }
+
+}
