@@ -20,3 +20,55 @@ html {
 body {
   margin: 0;
 }
+
+section {
+  background-color: #e5c30a;
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+section h2 {
+  margin: 0;
+}
+
+section div h2 {
+  margin: 0;
+}
+
+section p {
+  font-size: 100%;
+}
+
+.wrapper {
+  background-color: #e5c30a;
+  margin: 0;
+  max-width: 45em;
+}
+
+.section-letter,
+.section-icon {
+  padding-top: 1em;
+  width: 50%;
+}
+
+.section-letter {
+  float: left;
+  padding-left: 1em;
+}
+
+.section-icon {
+  float: right;
+  padding-right: 1em;
+}
+
+.section-body {
+  clear: both;
+  margin-left: 1em;
+  margin-right: 3em;
+}
+
+.section-body p {
+  padding-bottom: 1em;
+  margin-top: .1em;
+}
